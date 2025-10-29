@@ -29,7 +29,7 @@ My academic background is in statistics and economics (B.S. from Shanghai Univer
 
 ## 💼 Experience
 
-- **Research Assistant**, Heilongjiang Bayi Agricultural University (2023.12-2024.03–)  
+- **Research Assistant**, Heilongjiang Bayi Agricultural University (2023.12-2024.03)  
   Working with NIH-funded projects on digital suicide prevention, data analysis in R, and model-based inference.
 
 - **Undergraduate Thesis**, *“Bitcoin Volatility Modeling Based on HAR-RV-CJ Framework”*  
