@@ -28,6 +28,7 @@ navbar:
     - text: "Dashboard"
       icon: fa-bar-chart
       href: dashboard.html
+      target: _blank
 
     - icon: fa-file-pdf-o
       html: '<a href="files/resume.pdf" download style="color:#2c3e50;text-decoration:none;">Resume</a>'
