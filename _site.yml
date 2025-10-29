@@ -22,7 +22,7 @@ navbar:
 
     - text: "GitHub"
       icon: fa-github
-      href: "https://github.com/ChrisW12372/chrisw12372.github.io"
+      href: "https://github.com/ChrisW12372/chrisw.github.io/"
       target: _blank
     
     - text: "Dashboard"
