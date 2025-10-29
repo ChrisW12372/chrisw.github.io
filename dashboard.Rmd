@@ -1,0 +1,59 @@
+---
+title: "My Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+# scatter plot
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(tidyverse)
+library(p8105.datasets)
+data("instacart")
+```
+
+
+```{r}
+plot_ly(instacart %>% sample_n(500),
+x = ~order_hour_of_day,
+y = ~days_since_prior_order,
+type = "scatter",
+mode = "markers")
+
+```
+
+
+
+
+# bar plot
+
+```{r}
+instacart %>%
+count(aisle, sort = TRUE) %>%
+head(10) %>%
+plot_ly(x = ~aisle, y = ~n, type = "bar") %>%
+layout(xaxis = list(title = "Aisle"), yaxis = list(title = "Count"))
+
+```
+
+
+
+# box plot
+
+```{r}
+instacart %>%
+filter(aisle %in% c("fresh vegetables", "fresh fruits")) %>%
+plot_ly(x = ~aisle, y = ~order_hour_of_day, type = "box")
+
+```
+
+
+
+
+
+
+
+

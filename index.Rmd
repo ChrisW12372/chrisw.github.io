@@ -1,0 +1,31 @@
+---
+title: "Welcome"
+output:
+  html_document:
+    toc: false
+    theme: flatly
+---
+
+<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+  <h1>Hi, I'm Chris 👋</h1>
+  <p style="font-size: 20px;">M.S. in Biostatistics @ Columbia University</p>
+  <p style="font-size: 16px; color: gray;">Exploring data, statistics, and real-world problems</p>
+</div>
+
+---
+
+## 🧠 About Me
+
+I’m passionate about combining **statistical modeling**, **data science**, and **public health** to derive meaningful insights from complex datasets.  
+Currently, I’m working on several projects involving **HAR-RV models**, **volatility estimation**, and **machine learning applications** in biomedical data.
+
+---
+
+## 🔬 Research & Projects
+
+- **HAR-RV-CJ Model for Bitcoin Volatility** — modeling realized volatility and jumps.  
+- **CT Image Segmentation** — quantitative evaluation with Dice and Kappa metrics.  
+- **Epidemiological Analysis** — cohort study data cleaning, logistic regression, and survival analysis.
+
+---
+
